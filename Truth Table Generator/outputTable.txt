@@ -1,0 +1,15 @@
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+ $x_{1}$ & $y_{0}$ & $a_{1}$\\
+\hline
+$T$ & $T$ & $T$ \\
+\hline
+$T$ & $F$ & $F$ \\
+\hline
+$F$ & $T$ & $F$ \\
+\hline
+$F$ & $F$ & $F$ \\
+\hline
+\end{tabular}
+\end{center}

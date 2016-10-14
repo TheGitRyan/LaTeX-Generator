@@ -1,0 +1,8 @@
+\begin{center}
+\begin{tabular}{c c c}
+$y_{1} \cdot x_{1} \cdot y_{0} \cdot x_{1} \cdot y_{1} \cdot x_{0}$ &&\\
+$\equiv$ & $y_{1} \cdot y_{1} \cdot x_{1} \cdot x_{1} \cdot y_{0} \cdot x_{0} $ & commutativity\\
+$\equiv$ & $y_{1} \cdot x_{1} \cdot x_{1} \cdot y_{0} \cdot x_{0} $ & idempotency\\
+$\equiv$ & $y_{1} \cdot x_{1} \cdot y_{0} \cdot x_{0} $ & idempotency\\
+\end{tabular}
+\end{center}
