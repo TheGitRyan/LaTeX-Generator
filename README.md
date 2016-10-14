@@ -37,7 +37,9 @@ $\equiv$ & $(\neg p \land \neg q) \lor r $ & de morgan's law\\
 \end{tabular}
 \end{center}
 ```
-Additional Features:
-  - A basic "well-formed" checker, that scans each line of your proof to make sure there are a equal number of open and close parentheses. If there is an error (e.g. unequal parentheses) then the problem and line number are outputed to the console.
+Additional Notes:
+  - A basic "well-formed" checker is implememented, that scans each line of your proof to make sure there are a equal number of open and close parentheses. If there is an error (e.g. unequal parentheses) then the problem and line number are outputed to the console.
+  - Skipping lines is fine, the converter will just ignore them. However white space between characters may affect the outputted LaTeX code, however because of how LaTeX renders white space, there is not much of a chance this will cause a problem
+  - The first line of the document does not have a reason next to it. This is just the origianl expression and should alawya sbe the first line in the simplification
 
 
