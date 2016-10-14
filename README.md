@@ -9,7 +9,7 @@ The goal of this program is that you can type the parameters of the LaTeX struct
 For logical expressions the following ASCII characters can be written in the proofLines.txt file to be interpreted by the converter:
 
 Symbol | Logical Name | LaTeX replace
->        Implication    \rightarrow
+\>        Implication    \rightarrow
 <>       Biimplication  \leftrightarrow 
 &        And            \land
 x        And (Algebra)  \cdot
