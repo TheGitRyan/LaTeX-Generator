@@ -6,16 +6,18 @@ This is a LaTeX code generator and converter which can generator LaTeX code for 
 
 The goal of this program is that you can type the parameters of the LaTeX structure you want into a .txt file and the code generates the structure in LaTeX code, so the user doesn't have to deal with the specific syntax of LaTeX tables and expressions. 
 
+## Propositional Logic / Boolean Algebra simplifications
+
 For logical expressions the following ASCII characters can be written in the proofLines.txt file to be interpreted by the converter:
 
 |Symbol | Logical Name | LaTeX replace  |
 |----|----|----|
 |\>     | Implication  | \rightarrow    |
 |<>     | Biimplication| \leftrightarrow|
-|&      | And          | \land          |
+|&      | Logical And          | \land          |
 |x      | And (Algebra)| \cdot          |
-|v      | Or           | \lor           |
-|+      | Or           | +              |
+|v      | Logical Or           | \lor           |
+|+      | Or (Algebra)          | +              |
 |~      | Negation     | \neg           |
 |'      | Negation (Algebra)| '         |
 
